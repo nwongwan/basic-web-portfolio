@@ -1,0 +1,177 @@
+
+body {
+    text-align: center;
+}
+
+
+.about {
+    background-color: rgb(243, 226, 234);
+}
+
+.about hr {
+    margin: 5px;
+}
+
+
+.main-title {
+    font-family: 'Times New Roman', sans-serif;
+    color: #be97ce;
+    margin-top: 0;
+}
+
+
+.intro {
+    text-align: center;
+}
+
+
+.more-about {
+    background-color: rgb(253, 253, 233);
+    margin-top: 30px;
+}
+
+.more-about hr {
+    margin: 5px;
+}
+
+
+.skills {
+    background-color: rgb(237, 234, 228);
+    margin-top: 0;
+}
+
+.skills h2 {
+    color: #9e65b8;
+    text-decoration: underline;
+}
+
+.skills hr {
+    margin: 5px;
+}
+
+.python {
+    font-style: italic;
+    color: rgb(229, 37, 191);
+}
+
+.video-box  {
+    border: 2px solid#5a266f;
+    padding: 20px;
+    margin: 30px 20px;
+    border-radius: 15px;
+    background-color: rgb(247, 247, 246);
+    transition: border-color 0.5s ease,
+    background-color 1s ease,
+    box-shadow 0.3s ease;
+}
+
+.video-box:hover {
+    border-color:#ededed;
+    background-color:rgb(228, 185, 192);
+    box-shadow: 0 4px 12px rgba(90, 38, 111, 0.15);
+
+
+}
+.video-title {
+    margin-top: 20px;
+    font-size: 36px;
+}
+
+
+
+
+
+
+
+
+.contact-box {
+    border: 3px solid #6b4979;
+    padding: 10px 25px;
+    margin: 30px 20px;
+    border-radius: 15px;
+    background-color: rgb(247, 247, 246);
+    transition: border-color 0.3s ease,
+    background-color 1.5s ease,
+    box-shadow 0.3s ease;
+
+}
+
+
+.contact-box .contact-title {
+    margin-top: 0;
+    margin-bottom: 25px;
+    padding-bottom: 25px;
+    font-size: 28px;
+    color: #A563C0;
+    text-align: center;
+    border-bottom: 1px solid #E8D8EE;
+    
+}
+
+.contact-box p {
+    font-size: 18px; 
+    color: #08000b;
+    text-align: center;
+}
+
+.contact-box:hover {
+    border-color:#0d0113;
+    background-color:rgb(198, 182, 207);
+    box-shadow: 0 4px 12px rgba(90, 38, 111, 0.15);
+}
+
+.contact-icon {
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+}
+
+.skill-box {
+    border: 2px solid #5a266f;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 15px;
+    background-color: rgb(247, 247, 246);
+    
+    transition: border-color 0.3s ease,
+    background-color 1s ease,
+    box-shadow 0.3s ease;
+
+}
+
+.skill-box:hover {
+    border-color:#ededed;
+    background-color:rgb(248, 244, 219);
+    box-shadow: 0 4px 12px rgba(90, 38, 111, 0.15);
+}
+
+.short-line {
+    width: 50%;
+    margin: 5px auto 40px;
+}
+
+.calculator-box {
+    border: 2px solid #5a266f;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 15px;
+    background-color: rgb(247, 247, 246);
+
+    transition: border-color 0.5s ease,
+    background-color 1s ease,
+    box-shadow 0.3s ease;
+}
+
+.calculator-box:hover {
+    border-color:#e4f9f4;
+    background-color:rgb(197, 230, 223);
+    box-shadow: 0 4px 12px rgba(90, 38, 111, 0.15);
+}
+
+.bmi-status {
+    display: inline-block;
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 20px;
+    color :rgb(247, 247, 246)
+}
