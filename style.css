@@ -1,9 +1,25 @@
+body {
+    font-family: "Times New Roman", sans-serif;
+
+}
 
 body {
     text-align: center;
 }
 
+.welcome-section {
+   background-color: #c2aad4;
+}
 
+.welcome-text {
+   display: inline-block;
+   color: white;
+   font-family: Arial, sans-serif;
+   font-size: 18px;
+   padding: 1px;
+
+
+}
 .about {
     background-color: rgb(243, 226, 234);
 }
@@ -174,4 +190,84 @@ body {
     font-weight: bold;
     margin-top: 20px;
     color :rgb(247, 247, 246)
+}
+
+.nav-toggler {
+    border: none;
+    outline: none;
+}
+
+.navbar-toggler:focus, .btn-close:focus {
+    box-shadow: none;
+    outline: none;
+}
+
+.nav-link {
+    color:#666777;
+    font-weight: 500;
+    position: relative;
+
+}
+
+.nav-link:hover, .nav-link.active {
+    color: #000;
+}
+
+.nav-link::before{
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 0%;
+    height: 2px;
+    background-color: #684889;
+    visibility: hidden;
+    transition: 0.3s ease-in-out;
+}
+
+.nav-link:hover::before {
+    width: 100%;
+    visibility: visible;
+
+}
+
+.navbar {
+    font-family:  Cambria, sans-serif;
+    background-color:rgb(188, 159, 203);
+}
+
+.navbar .navbar-brand,
+.navbar .nav-link {
+    color: white;
+
+}
+
+.search-btn {
+    color: white;
+    border: 1px solid white;
+    background-color: transparent;
+
+}
+
+
+.search-btn:hover {
+    background-color:rgb(239, 201, 232);
+    border-color: #d8bfe1;
+    color: rgb(140, 73, 157);
+
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 700;
+}
+
+
+
+.carousel-img {
+    width: 60%;
+    height: 300px;
+    object-fit: contain;
+ 
 }
